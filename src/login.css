@@ -1,0 +1,126 @@
+.login{
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    margin-left: 48px;
+}
+
+  .login-details{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-border{
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+  }
+  .login-head{
+    margin-top: 50px;
+    color: azure;
+    font-family: 'My Soul', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Tapestry', cursive;
+  }
+  .type-string{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'My Soul', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Tapestry', cursive;
+  }
+  .by{
+    border-radius: 10px;
+    padding: 0px 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'My Soul', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Tapestry', cursive;
+  }
+  .created{
+    font-size: 20px;
+    font-family: 'My Soul', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Tapestry', cursive;
+  }
+  /* ***************************************Todo************************************* */
+  
+  .container{
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    align-content:center;
+    /* background: rgb(255, 255, 255); */
+  }
+  .bg{
+    height: 100vh;
+   background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    opacity:0.90;
+  }
+  .todo-list{
+    background: rgb(248, 248, 248,0.80);
+    padding: 25px 30px;
+    width: 700px;
+    margin: 134px auto;
+    border-radius: 15px;
+    box-shadow: 10px 10px 0 rgba(14, 14, 14, 0.70);
+    font-size: 18px;
+    font-family: 'My Soul', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Tapestry', cursive;
+  }
+  .look{
+    width: 70%!important;
+  }
+  .add-list{
+    align-content: flex-end;
+    font-size: 42px;
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 15px;
+    text-align: center;
+    line-height: 1;
+  }
+  .list-content{
+    overflow: auto;
+    height: 320px;
+  }
+  .todo{
+    list-style: none;
+  }
+  .btn{
+    border-radius: 20px!important;
+  }
+  input[type=checkbox]:checked + label {
+    color:rgb(65, 65, 65);
+    text-decoration: line-through;
+  }
+  td{
+    font-size: 22px!important;
+  }
+  @media screen and (min-device-width: 320px) and (max-device-width: 768px) { 
+    /* STYLES HERE */
+    .todo-list{
+      font-size: 15px;
+    }
+    .btn{
+      font-size: 10px!important;
+    }
+  }
